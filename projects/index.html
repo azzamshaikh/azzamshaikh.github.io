@@ -1,0 +1,561 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Azzam Shaikh | Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="../images/profile.jpg" alt="" /></span>
+					<h1 id="logo"><a href="../index.html">Azzam Shaikh</a></h1>
+					<p>Engineer with a keen<br />
+					interest in robotics and AI</p>
+					<!-- <p>I got reprogrammed by a rogue AI<br />
+					and now I'm totally cray</p> -->
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Projects</a></li>
+						<li><a href="#two">ME 497: Mechatronics</a></li>
+						<li><a href="#three">ME 440: Senior Capstone Project</a></li>
+						<li><a href="#four">BME 497: Biomedical Data Science</a></li>
+						<li><a href="#five">ME 340: Mechanical Engineering Design Methodology</a></li>
+						<li><a href="#six">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<li><a href="https://www.linkedin.com/in/shaikhazzam/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.github.com/azzamshaikh" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:azzam.shaikh8@gmail.com"  class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="../images/houston.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Projects </h2>
+										<!-- <p>Just an incredibly simple responsive site<br />
+										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p> -->
+										<p>Various projects completed throughout my undergraduate studies.</p>
+									</header>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>ME 497: Mechatronics</h3>
+									<p>In the Spring semester of 2019, I enrolled in a Mechatronics course for one of my Engineering electives. This course turned out to be one of my favorite classes I had taken during my undergraduate career. It was a mixture of lecture and lab which I enjoyed thoroughly. The beginning stages of the course focused on understanding the basics of the Arduino microcontroller. After a few weeks, we began to incorporate different devices such as TTL chips, encoders, potentiometers, servo motors, IR sensors, and DC motors into programs through the microcontroller. The purpose was to learn about these devices and eventually integrate them onto a single platform: a RedBot. In the final few weeks of the class, we were tasked with developing various RedBots that would carry out the following tasks: (1) a talent show, (2) an obstacle course, and (3) a wall following robot. A description of the tasks are as follows:</p>
+									<p>All code for these projects can be found <a href="https://github.com/azzamshaikh/Mechatronics_Projects-Penn_State_ME_497"><u>here.</u></a></p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/talent_show.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Talent Show</h4>
+												<p>The first project was focused on getting everyone acquainted with the RedBot platform and some of their unique parts. The talent we programmed onto the RedBot was inspired by the upcoming release of the final Game of Thrones season. We programmed our robot to 'sit' in the Iron Throne and play the famous soundtrack from the series. Onboard, we had a mechanical bumper attached onto the lower frame of the RedBot. This sensor was going to be used in order to inform the robot on when to 'sit down'. Once the bumper came into contact with the chair, the RedBot would reverse, make a 180 degree turn, and then reverse into the chair. Once in position, the Game of Thrones theme song would play from the onboard buzzer.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/obstacle_course.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Obstacle Course</h4>
+												<p>The second project required us to develop a remote controller to maneuver our robot around an obstacle course and automatically stop after crossing the finish line. This project was our first introduction to transceivers. We used two RedBot microcontrollers each equipped with an XBee antenna module. One microcontroller would act as the remote control with potentiometers controlling the direction and speed inputs. The other microcontroller was attached to the RedBot and would apply the inputs received to the wheels. In addition, the RedBot had an IR sensor onboard and when the robot came close to the end of the track (a cardboard wall), the brakes (shorting the motors) would be applied.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/wall_following_robot.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Wall Following Robot</h4>
+												<p> The final lab involved creating a wall following robot. The focus of this project was to develop a simple feedback control loop that the RedBot would use to move along a wall. The feedback would be used to adjust for any obstacles that come along the path of the wall (indentation, door stopper, etc.). Onboard the RedBot, there was an IR sensor that would function as the feedback sensor. Based on the distance that we wanted the robot to stay from the wall and the feedback from the IR sensor, the RedBot would adjust the speed of its left and right wheel accordingly to maintain that distance. The feedback was modified by a simple proportional gain.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+
+						<!-- Three -->
+						<section id="three">
+							<div class="container">
+								<h3>ME 440: Senior Capstone Project</h3>
+								<p>Our capstone project revolved around the development of a non-contact dimensional measurement system for small biological samples. The sponsor of the project was Penn State's Dr. Spencer Szczesny (Szczesny Lab).<br/>
+									<br />
+									A description of the attached files are as follows:
+									</p>
+								<div class="features">
+									<article>
+										<a href="#" class="image"><img src="images/tendon_sample.jpg" alt=""/></a>
+										<div class="inner">
+											<p>The purpose of this image is to show the scale of the biological samples that the Szczesny Lab investigates and analyzes. A system was required by the lab to get accurate measurements of the major and minor diameter of the tendon. The light blue block and the metal holders were custom built pieces developed by a PhD student in the lab. These grips were a major component that had to be incorporated into our design.</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/onsite_demo.jpg" alt=""/></a>
+										<div class="inner">
+											<p>After researching different solutions toward obtaining the diameters of a tendon, we had an onsite demo of a Keyence product that we were considering as the main component for our system. The onsite demo provided valuable information regarding the accuracy and precision of measurements it can acquire. Based on this and analyzing other solutions, our team and sponsor agreed to purchase this system.</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/alpha1.jpg" alt=""/></a>
+										<div class="inner">
+											<p>After ordering the system, there was a significant lead time in shipping the product. Therefore, we decided to use the system's design specifications and a 3D printed version of the system to aid the development of the other components that would hold the Keyence device and the custom grips.</p>
+										</div>
+										<p></p>
+										<a href="#" class="image"><img src="images/alpha2.jpg" alt=""/></a>
+										<div class="inner">
+											<p>A majority of our components were purchased through ThorLabs. Their high quality opto-mechanical products made it easy to assemble and provide the flexibility to test different setups.</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/beta.jpg" alt=""/></a>
+										<div class="inner">
+											<p>After the arrival of our system, we finalized the rest of the design to hold the system and tendon and presented our project at the Penn State Design Showcase. This was the final working product the Szczesny Lab was able to use.</p>												</p>
+										</div>
+									</article>
+									<article>
+										<div class="outer">
+											<p>The final three documents attached are the Design Showcase poster, class presentation, and final report.</p>
+											<iframe src="documents/PSU_BME2_Final_Poster.pdf#toolbar=0" width="100%" height="750px"></iframe>
+											<iframe src="documents/PSU_BME2_Final_Presentation.pdf#toolbar=0" width="100%" height="750px"></iframe>
+											<iframe src="documents/PSU_BME2_Final_Report.pdf#toolbar=0" width="100%" height="750px"></iframe>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>f
+
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>BME 497: Biomedical Data Science</h3>
+									<p>Projects completed within my Biomedical Data Science courses wheere I learned the fundamentals of data science and its applications in cancer research.<br />
+										<br/>
+									Links to R files can be found <a href="https://github.com/azzamshaikh/Biomedical_Data_Science_Projects-Penn_State_BME_497"><u>here</u></a>.</p>
+								</div>
+							</section>
+
+						<!-- Five -->
+						<section id="five">
+							<div class="container">
+								<h3>ME 340: Mechanical Engineering Design Methodology</h3>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/turbine.jpg" alt=""/></a>
+											<div class="inner">
+												<h4>Wind Turbine Project</h4>
+											<p>Our junior class 'mini capstone' project revolved around the development of a wind turbine that could produce power. We placed 1st in our section and 3rd overall in the class.<br />
+												<br />
+												The two documents attached are the class presentation and final report.</p>
+											</div>
+										</article>
+								</div>
+									<iframe src="documents/3.4-Wind-Turbine-Final-Presentation.pdf#toolbar=0" width="100%" height="750px"></iframe>
+									<iframe src="documents/3.4_Final_Report_ME340_S18.pdf#toolbar=0" width="100%" height="750px"></iframe>
+							</div>
+						</section>
+
+
+						<!-- Six -->
+							<section id="six">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>If you have any questions or need to reach me, feel free to reach out at the email listed below and I will get back to you as soon as possible.</p>
+									<p>azzam.shaikh8@gmail.com</p>
+									<!-- <form method="post" action="mailto:azzam.shaikh8@gmail.com">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form> -->
+								</div>
+							</section>
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<!-- <section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section> -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
